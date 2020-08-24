@@ -2,4 +2,14 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/myUmbracoPackage.Web/.vs/myUmbracoPackage/config
+/.vs
+/myUmbracoPackage/obj
+/myUmbracoPackage.Web/App_Data/cache
+/myUmbracoPackage.Web/App_Data/Logs
+/myUmbracoPackage.Web/App_Data/Models
+/myUmbracoPackage.Web/App_Data/packages
+/myUmbracoPackage.Web/App_Data/TEMP
+/myUmbracoPackage.Web/bin
+/myUmbracoPackage.Web/obj
+/myUmbracoPackage.Web/Umbraco
+/packages
