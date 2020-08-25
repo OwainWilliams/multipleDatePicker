@@ -4,3 +4,9 @@ C:\Git\myUmbracoPackage\MultipleDatePicker8\obj\Debug\MultipleDatePicker8.csproj
 C:\Git\myUmbracoPackage\MultipleDatePicker8\obj\Debug\MultipleDatePicker8.dll
 C:\Git\myUmbracoPackage\MultipleDatePicker8\obj\Debug\MultipleDatePicker8.pdb
 C:\Git\myUmbracoPackage\MultipleDatePicker8\obj\Debug\MultipleDatePicker8.csprojAssemblyReference.cache
+C:\Git\multipleDatePicker\MultipleDatePicker8\bin\Debug\MultipleDatePicker8.dll
+C:\Git\multipleDatePicker\MultipleDatePicker8\bin\Debug\MultipleDatePicker8.pdb
+C:\Git\multipleDatePicker\MultipleDatePicker8\obj\Debug\multipleDatePicker8.csprojAssemblyReference.cache
+C:\Git\multipleDatePicker\MultipleDatePicker8\obj\Debug\multipleDatePicker8.csproj.CoreCompileInputs.cache
+C:\Git\multipleDatePicker\MultipleDatePicker8\obj\Debug\MultipleDatePicker8.dll
+C:\Git\multipleDatePicker\MultipleDatePicker8\obj\Debug\MultipleDatePicker8.pdb

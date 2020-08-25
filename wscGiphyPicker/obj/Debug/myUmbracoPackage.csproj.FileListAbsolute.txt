@@ -1,6 +1,0 @@
-C:\Git\myUmbracoPackage\myUmbracoPackage\bin\Debug\myUmbracoPackage.dll
-C:\Git\myUmbracoPackage\myUmbracoPackage\bin\Debug\myUmbracoPackage.pdb
-C:\Git\myUmbracoPackage\myUmbracoPackage\obj\Debug\myUmbracoPackage.csproj.CoreCompileInputs.cache
-C:\Git\myUmbracoPackage\myUmbracoPackage\obj\Debug\myUmbracoPackage.dll
-C:\Git\myUmbracoPackage\myUmbracoPackage\obj\Debug\myUmbracoPackage.pdb
-C:\Git\myUmbracoPackage\myUmbracoPackage\obj\Debug\myUmbracoPackage.csprojAssemblyReference.cache
