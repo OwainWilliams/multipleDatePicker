@@ -63,6 +63,7 @@
       <DependentUpon>multipleDatePicker.js</DependentUpon>
     </Content>
     <Content Include="assets\CreatePicker.gif" />
+    <Content Include="assets\mulitpleDatePickerIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
