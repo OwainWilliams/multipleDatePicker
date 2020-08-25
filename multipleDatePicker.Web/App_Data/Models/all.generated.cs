@@ -6,7 +6,7 @@ using  Umbraco.Core.Models;
 using  Umbraco.Core.Models.PublishedContent;
 using  Umbraco.Web;
 using  Umbraco.ModelsBuilder.Embedded;
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b68e551faed2c763")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "380870a74d52b436")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
 
 
@@ -534,11 +534,11 @@ namespace Umbraco.Web.PublishedModels
 		public string ColorTheme => this.Value<string>("colorTheme");
 
 		///<summary>
-		/// Date picker
+		/// Dates
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		[ImplementPropertyType("datePicker")]
-		public global::Newtonsoft.Json.Linq.JToken DatePicker => this.Value<global::Newtonsoft.Json.Linq.JToken>("datePicker");
+		[ImplementPropertyType("dates")]
+		public global::Newtonsoft.Json.Linq.JToken Dates => this.Value<global::Newtonsoft.Json.Linq.JToken>("dates");
 
 		///<summary>
 		/// Font
@@ -581,13 +581,6 @@ namespace Umbraco.Web.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
 		[ImplementPropertyType("footerHeader")]
 		public string FooterHeader => this.Value<string>("footerHeader");
-
-		///<summary>
-		/// Giphy
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		[ImplementPropertyType("giphy")]
-		public string Giphy => this.Value<string>("giphy");
 
 		///<summary>
 		/// Hero Background: Spice up the homepage by adding a beautiful photo that relates to your business
