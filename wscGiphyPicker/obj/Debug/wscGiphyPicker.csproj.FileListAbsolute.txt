@@ -6,7 +6,7 @@ C:\Git\myUmbracoPackage\myUmbracoPackage\obj\Debug\myUmbracoPackage.dll
 C:\Git\myUmbracoPackage\myUmbracoPackage\obj\Debug\myUmbracoPackage.pdb
 C:\Git\myUmbracoPackage\wscGiphyPicker\bin\Debug\myUmbracoPackage.dll
 C:\Git\myUmbracoPackage\wscGiphyPicker\bin\Debug\myUmbracoPackage.pdb
-C:\Git\myUmbracoPackage\wscGiphyPicker\obj\Debug\wscGiphyPicker.csprojAssemblyReference.cache
 C:\Git\myUmbracoPackage\wscGiphyPicker\obj\Debug\wscGiphyPicker.csproj.CoreCompileInputs.cache
 C:\Git\myUmbracoPackage\wscGiphyPicker\obj\Debug\myUmbracoPackage.dll
 C:\Git\myUmbracoPackage\wscGiphyPicker\obj\Debug\myUmbracoPackage.pdb
+C:\Git\myUmbracoPackage\wscGiphyPicker\obj\Debug\wscGiphyPicker.csprojAssemblyReference.cache

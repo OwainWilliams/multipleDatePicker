@@ -399,6 +399,7 @@
   <Import Project="packages\UmbracoCms.8.6.4\build\UmbracoCms.targets" Condition="Exists('packages\UmbracoCms.8.6.4\build\UmbracoCms.targets')" />
   <PropertyGroup>
     <PostBuildEvent>xcopy /Y /S /D "$(SolutionDir)wscGiphyPicker\App_Plugins\*" "$(ProjectDir)App_Plugins"
+xcopy /Y /S /D "$(SolutionDir)MultipleDatePicker8\App_Plugins\*" "$(ProjectDir)App_Plugins"
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

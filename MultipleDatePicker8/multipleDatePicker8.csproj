@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{460CEB08-5D48-4BEC-B243-AD4B534D5D6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MultipleDatePicker8</RootNamespace>
+    <AssemblyName>MultipleDatePicker8</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Plugins\MultipleDatePicker8\config\meta.json" />
+    <None Include="App_Plugins\MultipleDatePicker8\config\package.nuspec" />
+    <None Include="App_Plugins\MultipleDatePicker8\README.md" />
+    <None Include="App_Plugins\MultipleDatePicker8\package.manifest" />
+    <None Include="bundleconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Plugins\MultipleDatePicker8\assets\interface.png" />
+    <Content Include="App_Plugins\MultipleDatePicker8\assets\owaincodeslogo.png" />
+    <Content Include="App_Plugins\MultipleDatePicker8\config\package.template.xml" />
+    <Content Include="App_Plugins\MultipleDatePicker8\config\readme.txt" />
+    <Content Include="App_Plugins\MultipleDatePicker8\css\multipleDatePicker.css" />
+    <Content Include="App_Plugins\MultipleDatePicker8\editor.controller.js" />
+    <Content Include="App_Plugins\MultipleDatePicker8\editor.html" />
+    <Content Include="App_Plugins\MultipleDatePicker8\js\multipleDatePicker.js" />
+    <Content Include="App_Plugins\MultipleDatePicker8\js\multipleDatePicker.min.js">
+      <DependentUpon>multipleDatePicker.js</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
