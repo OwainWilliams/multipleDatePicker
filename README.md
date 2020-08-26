@@ -6,7 +6,7 @@ Multiple Date Picker is a ported version of https://github.com/markwemekamp/Umbr
 
 Either log in to the backoffice of Umbraco and search the package library or you can now install this via nuget.
 
-`nuget install WSC.MutlipleDatePicker`
+`Install-Package oc.MultipleDatePicker`
 
 
 ## Usage
