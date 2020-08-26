@@ -50,6 +50,7 @@
     <None Include="App_Plugins\MultipleDatePicker8\package.manifest" />
     <None Include="bundleconfig.json" />
     <None Include="MultipleDatePicker8.nuspec" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Plugins\MultipleDatePicker8\assets\interface.png" />

@@ -8,7 +8,9 @@
     <owners>Owain Williams</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/OwainWilliams/multipleDatePicker</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/OwainWilliams/multipleDatePicker/master/MultipleDatePicker8/assets/mulitpleDatePickerIcon.png</iconUrl>
+    <iconUrl>
+      https://raw.githubusercontent.com/OwainWilliams/multipleDatePicker/master/MultipleDatePicker8/assets/mulitpleDatePickerIcon.png
+    </iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A property editor for Umbraco 8 which allows you to select multiple dates in the backoffice.</description>
     <releaseNotes>
@@ -16,9 +18,13 @@
     </releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>Umbraco Property Editor Multiple Date Picker</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+    </dependencies>
   </metadata>
   <files>
     <file src="App_Plugins\MultipleDatePicker8\**\*.*" target="content\App_Plugins\MultipleDatePicker8" />
-	<file src="readme.txt" target="" />
+    <file src="readme.txt" target="" />
+    
   </files>
 </package>
