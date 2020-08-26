@@ -16,7 +16,7 @@ Either log in to the backoffice of Umbraco and search the package library for 'M
 * Log in to the backoffice of Umbraco 8
 * ![Demo of how to setup the Multiple Date Picker](https://github.com/OwainWilliams/multipleDatePicker/blob/master/MultipleDatePicker8/assets/CreatePicker.gif)
 
-##Within the frontend view: 
+## Within the frontend view: 
 
 Once you have your data type added to your Document Type, you can get the dates in your view like this : 
 ```
